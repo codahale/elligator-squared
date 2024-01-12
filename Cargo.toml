@@ -1,0 +1,13 @@
+[package]
+name = "elligator-squared"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+elliptic-curve = "0.13.8"
+p256 = { version = "0.13.2", features = ["expose-field"] }
+primeorder = "0.13.6"
+rand_core = "0.6.4"
+
+[dev-dependencies]
+rand_chacha = "0.3.1"
